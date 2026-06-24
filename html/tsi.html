@@ -2,29 +2,50 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LinkedIF - TSI</title>
         <link rel="shortcut icon" href="../img/logo-favicon.png">
+        <link rel="stylesheet" href="../css/tsi.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!--Cabeçalho principal da página-->
-        <header>
-            <a href="../index.html">LinkedIf</a>
-            <!--Menu principal da página-->
-            <nav>
-                <a href="https://www.linkedin.com/in/tiago-nogueira-880b833b8/" target="_blank">Perfil no LinkedIn |</a>
-                <a href="./contato.html">Contato</a>
-            </nav>
-            <hr>
-        </header>
-        <!--Conteúdo principal-->
+        <div id="header-container">
+            <header id="page-header">
+                <a href="../index.html">LinkedIf</a>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-toggle-label" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <nav class="menu-externo">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="https://www.linkedin.com/in/tiago-nogueira-880b833b8/" target="_blank">Perfil no LinkedIn</a></li>
+                        <li><a href="./tsi.html">Matriz do curso</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
         <main>
             <header id="identificacao">
-                <img src="../img/perfil.png" alt="Foto de perfil" width="50">
+                <img src="../img/perfil.jpeg" alt="Foto de perfil" width="50">
                 <span>Tiago Brandão Nogueira</span>
             </header>
+            <nav class="menu-interno">
+                <a href="#semestre1">1º Semestre</a>
+                <a href="#semestre2">2º Semestre</a>
+                <a href="#semestre3">3º Semestre</a>
+                <a href="#semestre4">4º Semestre</a>
+                <a href="#semestre5">5º Semestre</a>
+                <a href="#semestre6">6º Semestre</a>
+            </nav>
             <section>
                 <header>
-                    <h2 id="semeste1">TSI Primeiro Semestre</h2>
+                    <h2 id="semestre1">TSI Primeiro Semestre</h2>
                 </header>
                 <table border="1">
                     <caption>Componentes do primeiro semestre do curso de TSI</caption>
@@ -71,6 +92,251 @@
                                 <td colspan="2">Total de Horas</td>
                                 <!-- <td></td> -->
                                 <td>333,2</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <header>
+                    <h2 id="semestre2">TSI Segundo Semestre</h2>
+                </header>
+                <table border="1">
+                    <caption>Componentes do segundo semestre do curso de TSI</caption>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>Carga Horária</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ARQARCO</td>
+                            <td>Arquitetura de Computadores</td>
+                            <td>33,3</td>
+                        </tr>
+                        <tr>
+                            <td>ARQCIWB</td>
+                            <td>Construção de interfaces web</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQENGS</td>
+                            <td>Engenharia de Software</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQESDD</td>
+                            <td>Estrutura de Dados</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQINGL</td>
+                            <td>Inglês</td>
+                            <td>33,3</td>
+                        </tr>
+                        <tr>
+                            <td>ARQINOO</td>
+                            <td>Introdução a orientação a objetos</td>
+                            <td>33,3</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total de Horas</td>
+                                <!-- <td></td> -->
+                                <td>333,4</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <header>
+                    <h2 id="semestre3">TSI Terceiro Semestre</h2>
+                </header>
+                <table border="1">
+                    <caption>Componentes do terceiro semestre do curso de TSI</caption>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>Carga Horária</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ARQADEP</td>
+                            <td>Administração e empreendedorismo</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQDBA1</td>
+                            <td>Banco de Dados 1</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQWEB1</td>
+                            <td>Desenvolvimento de sistemas web</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQDEOO</td>
+                            <td>Desenvolvimento orientado a objetos</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQSSOS</td>
+                            <td>Sistemas Operacionais</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total de Horas</td>
+                                <!-- <td></td> -->
+                                <td>333,5</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <header>
+                    <h2 id="semestre4">TSI Quarto Semestre</h2>
+                </header>
+                <table border="1">
+                    <caption>Componentes do quarto semestre do curso de TSI</caption>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>Carga Horária</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ARQANPS</td>
+                            <td>Analise e Projeto de Sistemas</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQDBA2</td>
+                            <td>Banco de Dados 2</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQWEB2</td>
+                            <td>Desenvolvimento de sistemas web 2</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQESTA</td>
+                            <td>Estatística</td>
+                            <td>33,3</td>
+                        </tr>
+                        <tr>
+                            <td>ARQMPCT</td>
+                            <td>Metodologia de Pesquisa Científica e Tecnológica</td>
+                            <td>33,3</td>
+                        </tr>
+                        <tr>
+                            <td>ARQREDE</td>
+                            <td>Redes de Computadores</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total de Horas</td>
+                                <!-- <td></td> -->
+                                <td>333,5</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <header>
+                    <h2 id="semestre5">TSI Quinto Semestre</h2>
+                </header>
+                <table border="1">
+                    <caption>Componentes do quinto semestre do curso de TSI</caption>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>Carga Horária</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ARQEXT1</td>
+                            <td>Atividades de extensão 1</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQDDM1</td>
+                            <td>Desenvolvimento para dispositivos móveis 1</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQPRFW</td>
+                            <td>Programação com frameworks web</td>
+                            <td>133,3</td>
+                        </tr>
+                        <tr>
+                            <td>ARQSASI</td>
+                            <td>Segurança e auditoria de sistemas</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total de Horas</td>
+                                <!-- <td></td> -->
+                                <td>333,4</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <header>
+                    <h2 id="semestre6">TSI Sexto Semestre</h2>
+                </header>
+                <table border="1">
+                    <caption>Componentes do sexto semestre do curso de TSI</caption>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>Carga Horária</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ARQEXT2</td>
+                            <td>Atividades de extensão 2</td>
+                            <td>133,3</td>
+                        </tr>
+                        <tr>
+                            <td>ARQDDM2</td>
+                            <td>Desenvolvimento para dispositivos móveis 2</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQGPRO</td>
+                            <td>Gerenciamento de projetos</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tr>
+                            <td>ARQMIND</td>
+                            <td>Mineração de dados</td>
+                            <td>66,7</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total de Horas</td>
+                                <!-- <td></td> -->
+                                <td>333,4</td>
                             </tr>
                         </tfoot>
                     </tbody>

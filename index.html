@@ -2,9 +2,10 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LinkedIF - Home</title>
-        <link rel="shortcut icon" href="./img/linkedif_fav.png">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -15,10 +16,17 @@
         <header id="page-header">
             <a href="./index.html">LinkedIf</a>
             <!--Menu principal da página-->
-            <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-toggle-label" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="menu-externo">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/tiago-nogueira-880b833b8/" target="_blank">Perfil no LinkedIn |</a></li>
-                    
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/tiago-nogueira-880b833b8/" target="_blank">Perfil no LinkedIn</a></li>
+                    <li><a href="./html/tsi.html">Matriz do curso</a></li>
                     <li><a href="./html/contato.html">Contato</a></li>
                 </ul>
             </nav>
@@ -28,9 +36,9 @@
         <!--Conteúdo principal-->
         <main>
             <header id="identificacao">
-                <img src="./img/perfil.png" alt="Foto de perfil" width="50">
+                <img src="./img/perfil.jpeg" alt="Foto de perfil" width="50">
                 <span>Tiago Brandão Nogueira</span>
-                <nav>
+                <nav class="menu-interno">
                 <a href="#objetivo">Objetivo |</a>
                 <a href="#apresentacao">Apresentação |</a>
                 <a href="#formacao">Formação acadêmica |</a>
@@ -38,19 +46,19 @@
                 <a href="#competencias">Competências |</a>
                 </nav>
             </header>
-            <section>
+            <section class="objetivosec">
                 <header>
                     <h2 id="objetivo">Objetivo</h2>
                 </header>
-                <p>Desenvolvedor Back-End.</p>
+                <p>Desenvolvedor Back-End/Front-End e Analista de Dados.</p>
             </section>
-            <section>
+            <section class="apresentacaosec">
                 <header>
                     <h2 id="apresentacao">Apresentação</h2>
                 </header>
                 <p>Estudante em formação, com sólida base em lógica de programação e conhecimento em língua inlgesa (B2/C1), buscando oportunidade de estágio na área da tecnologia para aplicar conhecimento de back-end, análise de dados e web.</p>
             </section>
-            <section>
+            <section class="formacaosec">
                 <header>
                     <h2 id="formacao">Formação Acadêmica</h2>
                 </header>
@@ -60,7 +68,7 @@
                     <li>Disciplinas atuais: Algoritmos e Lógica de programação (C), Desenvolvimento Web (HTML/CSS)</li>
                 </ul>
             </section>
-            <section>
+            <section class="competenciasec">
                 <header>
                     <h2 id="exp">Experiência profissional</h2>
                 </header>
@@ -71,7 +79,7 @@
                     <li>Soft skills: Trabalho em equipe em ambiente de multinacional, disciplina e comunicação assertiva.</li>
                 </ul>
             </section>
-            <section>
+            <section class="competenciasec">
                 <header>
                     <h2 id="competencias">Competências</h2>
                 </header>
